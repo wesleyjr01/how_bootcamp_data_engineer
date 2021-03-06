@@ -21,7 +21,7 @@ Resources:
         ServerSideEncryptionConfiguration:
           - ServerSideEncryptionByDefault:
               SSEAlgorithm: AES256
-      BucketName: kinesis-firehose-bucket-belisco-ia-rio-preto
+      BucketName: kinesis-firehose-bucket-belisco011
 
   KinesisRole:
     Type: AWS::IAM::Role
